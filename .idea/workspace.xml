@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="First vr-experiment">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="Second vr-experiment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-preact-starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aframe-preact-starter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-preact-starter/app/components/aframe-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/aframe-preact-starter/app/components/aframe-custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-preact-starter/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/aframe-preact-starter/app/initialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-preact-starter/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/aframe-preact-starter/app/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-preact-starter/img/aframe-preact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-react-boilerplate-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-react-boilerplate-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-react-boilerplate-master/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-react-boilerplate-master/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-react-boilerplate-master/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aframe-react-boilerplate-master/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -119,7 +107,8 @@
       <workItem from="1699608044458" duration="591000" />
       <workItem from="1700353045071" duration="553000" />
       <workItem from="1700386480235" duration="6092000" />
-      <workItem from="1700509274794" duration="1399000" />
+      <workItem from="1700509274794" duration="1664000" />
+      <workItem from="1700525335699" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -129,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699374108250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second vr-experiment">
+      <option name="closed" value="true" />
+      <created>1700525141520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700525141520</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +150,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/aframe-preact-project" />
+    </ignored-roots>
     <MESSAGE value="First vr-experiment" />
-    <option name="LAST_COMMIT_MESSAGE" value="First vr-experiment" />
+    <MESSAGE value="Second vr-experiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second vr-experiment" />
   </component>
 </project>
