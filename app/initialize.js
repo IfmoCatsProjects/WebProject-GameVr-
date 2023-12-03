@@ -12,6 +12,7 @@ import 'aframe-particle-system-component'
 import './components/aframe-custom'
 import './components/aframe-environment'
 import './components/aframe-effects'
+import './components/capture-mouse'
 
 import { h, render } from 'preact'
 import Main from './main'

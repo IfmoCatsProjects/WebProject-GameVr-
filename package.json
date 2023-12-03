@@ -17,6 +17,7 @@
     "aframe-bmfont-text-component": "^0.1.4",
     "aframe-event-set-component": "^3.0.3",
     "aframe-particle-system-component": "^1.0.10",
+    "aframe-physics-system": "^4.0.2",
     "aframe-react": "^4.3.0",
     "preact": "^8.1.0"
   },

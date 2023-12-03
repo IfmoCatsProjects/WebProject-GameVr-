@@ -6,5 +6,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="aframe-physics-system" level="application" />
+    <orderEntry type="library" name="super-hands" level="application" />
+    <orderEntry type="library" name="aframe-event-set-component" level="application" />
+    <orderEntry type="library" name="aframe-physics-extras" level="application" />
   </component>
 </module>
