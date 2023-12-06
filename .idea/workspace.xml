@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="Second vr-experiment">
-      <change afterPath="$PROJECT_DIR$/app/components/capture-mouse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/color-randomizer.js" afterDir="false" />
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things">
       <change beforePath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/aframe-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/aframe-custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -34,6 +30,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SugarCube1337&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4163585d-a171-427b-b9b3-c68fce84b239" />
+        <option name="url" value="https://github.com/IfmoCatsProjects/WebProject-GameVr-.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -121,6 +131,7 @@
       <workItem from="1700386480235" duration="6092000" />
       <workItem from="1700509274794" duration="1664000" />
       <workItem from="1700525335699" duration="353000" />
+      <workItem from="1701887151401" duration="2978000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -146,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700525628719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="attempt to drag and drop, not working at all (((((">
+      <option name="closed" value="true" />
+      <created>1701646364427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701646364427</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +195,8 @@
     </ignored-roots>
     <MESSAGE value="First vr-experiment" />
     <MESSAGE value="Second vr-experiment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second vr-experiment" />
+    <MESSAGE value="attempt to drag and drop, not working at all (((((" />
+    <MESSAGE value="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things" />
   </component>
 </project>

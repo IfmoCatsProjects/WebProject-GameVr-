@@ -19,7 +19,8 @@
     "aframe-particle-system-component": "^1.0.10",
     "aframe-physics-system": "^4.0.2",
     "aframe-react": "^4.3.0",
-    "preact": "^8.1.0"
+    "preact": "^8.1.0",
+    "super-hands": "^3.0.4"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
