@@ -14,7 +14,7 @@ const COLORS = ['#D92B6A', '#9564F2', '#FFCF59']
 class Main extends Component {
     render() {
         return (
-            <a-scene physics environment={{ preset: 'tron', shadow: true }}>
+            <Scene physics environment={{ preset: 'tron', shadow: true }}>
                 <a-assets>
                     <a-mixin
                         id="cube"
@@ -32,7 +32,7 @@ class Main extends Component {
                     ></a-mixin>
                 </a-assets>
 
-                <a-entity
+                <Entity
                     camera
                     look-controls
                     wasd-controls
@@ -42,13 +42,12 @@ class Main extends Component {
                     cursor="rayOrigin: mouse"
                     body="type: static; shape: sphere; sphereRadius: 0.001"
                     super-hands="colliderEvent: raycaster-intersection;
-                     colliderEventProperty: els;
-                     colliderEndEvent: raycaster-intersection-cleared;
-                     colliderEndEventProperty: clearedEls;"
-                >
-                </a-entity>
+                 colliderEventProperty: els;
+                 colliderEndEvent: raycaster-intersection-cleared;
+                 colliderEndEventProperty: clearedEls;"
+                ></Entity>
 
-                <a-entity
+                <Entity
                     class="transformer"
                     position="0 1.6 -1"
                     color-randomizer
@@ -61,27 +60,25 @@ class Main extends Component {
                     material="color: purple"
                     shadow
                 >
-                    <a-entity text="value: Drag&drop to change color; width: 0.5; wrapCount: 12; align: center" position="0 0 0.25"></a-entity>
-                </a-entity>
+                    <Entity text="value: Drag&drop to change color; width: 0.5; wrapCount: 12; align: center" position="0 0 0.25"></Entity>
+                </Entity>
 
-                <a-entity class="cube" mixin="cube" position="0 0.265 -1" material="color: red"></a-entity>
-                <a-entity class="cube" mixin="cube" position="0 0.265 -0.5" material="color: red"></a-entity>
+                <Entity class="cube" mixin="cube" position="0 0.265 -1" material="color: red"></Entity>
+                <Entity class="cube" mixin="cube" position="0 0.265 -0.5" material="color: red"></Entity>
 
                 {/* Ground collider, предотвращающий падение объектов */}
-                <a-box
+                <Entity
+                    primitive="a-box"
                     body="type: static; shape: none"
                     shape="shape: box; halfExtents: 50 0.0005 50"
                     width={100}
                     height={0.001}
                     depth={100}
                     visible={false}
-                ></a-box>
-            </a-scene>
+                ></Entity>
+            </Scene>
         );
-    };
-
+    }
 }
 
-
-
-export default Main
+export default Main;
