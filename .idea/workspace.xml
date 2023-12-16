@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things">
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="physic cool drop">
+      <change afterPath="$PROJECT_DIR$/app/components/phase-shift.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/WebstormProjects/WebProject-GameVr-&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/WebstormProjects/aframe-physics-system-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,11 +80,24 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\aframe-react-boilerplate-master\src\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.publish">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="publish" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/aframe-react-boilerplate-master/package.json" />
       <command value="run" />
@@ -90,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.publish" />
       </list>
     </recent_temporary>
@@ -136,6 +157,10 @@
       <workItem from="1702143927166" duration="6000" />
       <workItem from="1702221649387" duration="11000" />
       <workItem from="1702495859231" duration="2256000" />
+      <workItem from="1702632757974" duration="54000" />
+      <workItem from="1702675824356" duration="617000" />
+      <workItem from="1702734391888" duration="1189000" />
+      <workItem from="1702747079067" duration="12546000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -209,6 +234,7 @@
     <MESSAGE value="Second vr-experiment" />
     <MESSAGE value="attempt to drag and drop, not working at all (((((" />
     <MESSAGE value="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things" />
-    <option name="LAST_COMMIT_MESSAGE" value="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things" />
+    <MESSAGE value="color change fix, physics doesn't work at all(idk why, i cant figure it)" />
+    <option name="LAST_COMMIT_MESSAGE" value="color change fix, physics doesn't work at all(idk why, i cant figure it)" />
   </component>
 </project>

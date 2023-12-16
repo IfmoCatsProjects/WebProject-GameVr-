@@ -6,15 +6,11 @@
 
 import {h, Component} from 'preact'
 import {Entity, Scene} from 'aframe-react'
-import 'super-hands';
-
-
-const COLORS = ['#D92B6A', '#9564F2', '#FFCF59']
 
 class Main extends Component {
     render() {
         return (
-            <Scene physics environment={{ preset: 'tron', shadow: true }}>
+            <Scene physics="debug: true" environment={{ preset: 'tron', shadow: true }}>
                 <a-assets>
                     <a-mixin
                         id="cube"
@@ -24,6 +20,7 @@ class Main extends Component {
                         stretchable
                         draggable
                         droppable
+                        phaze-shift
                         event-set__hoveron="_event: hover-start; material.opacity: 0.7; transparent: true"
                         event-set__hoveroff="_event: hover-end; material.opacity: 1; transparent: false"
                         body="shape: none"
@@ -38,7 +35,7 @@ class Main extends Component {
                     wasd-controls
                     position="0 1 1"
                     capture-mouse
-                    raycaster
+                    raycaster="objects: .clickable"
                     cursor="rayOrigin: mouse"
                     body="type: static; shape: sphere; sphereRadius: 0.001"
                     super-hands="colliderEvent: raycaster-intersection;
@@ -52,7 +49,7 @@ class Main extends Component {
                     position="0 1.6 -1"
                     color-randomizer
                     droppable
-                    body="type: static; shape: none"
+                    body="type: dynamic; shape: none; mass: 2"
                     shape="shape: box; halfExtents: 0.25 0.25 0.25"
                     geometry="primitive: box; width: 0.5; height: 0.5; depth: 0.5"
                     event-set__dragon="_event: dragover-start; material.color: orange"
@@ -60,7 +57,10 @@ class Main extends Component {
                     material="color: purple"
                     shadow
                 >
-                    <Entity text="value: Drag&drop to change color; width: 0.5; wrapCount: 12; align: center" position="0 0 0.25"></Entity>
+                    <Entity
+                        text="value: Drag&drop to change color; width: 0.5; wrapCount: 12; align: center"
+                        position="0 0 0.25"
+                    ></Entity>
                 </Entity>
 
                 <Entity class="cube" mixin="cube" position="0 0.265 -1" material="color: red"></Entity>
@@ -80,5 +80,4 @@ class Main extends Component {
         );
     }
 }
-
 export default Main;

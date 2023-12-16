@@ -13,6 +13,11 @@ import './components/aframe-custom'
 import './components/aframe-environment'
 import './components/aframe-effects'
 import './components/capture-mouse'
+import './components/color-randomizer'
+import './components/phase-shift'
+import 'super-hands'
+import 'aframe-physics-system'
+
 
 import { h, render } from 'preact'
 import Main from './main'
