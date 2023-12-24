@@ -45,6 +45,9 @@ class Main extends Component {
                         position="0 0 0.25"
                     ></Entity>
                 </Entity>
+                {['-5 2 0', '5 2 -10', '0 2 -15', '0 2 -5'].map((position, index) => (
+                    <Entity key={index} wall position={position} />
+                ))}
 
                 <Entity  class="cube clickable"
                          geometry="primitive: box; width: 0.33; height: 0.33; depth: 0.33"

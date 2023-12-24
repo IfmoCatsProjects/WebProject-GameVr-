@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="physic cool drop">
-      <change afterPath="$PROJECT_DIR$/app/components/phase-shift.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" afterDir="false" />
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="attempt to use drag-drop correctly....">
+      <change afterPath="$PROJECT_DIR$/app/components/wall-component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/WebstormProjects/aframe-physics-system-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/WebstormProjects/aframe-super-hands-component-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -161,6 +157,18 @@
       <workItem from="1702675824356" duration="617000" />
       <workItem from="1702734391888" duration="1189000" />
       <workItem from="1702747079067" duration="12546000" />
+      <workItem from="1702768358174" duration="103000" />
+      <workItem from="1702827684136" duration="1875000" />
+      <workItem from="1702839863559" duration="107000" />
+      <workItem from="1702843476681" duration="974000" />
+      <workItem from="1702926595544" duration="3000" />
+      <workItem from="1702941314170" duration="1000" />
+      <workItem from="1702976163204" duration="2000" />
+      <workItem from="1702977270038" duration="2000" />
+      <workItem from="1702978194261" duration="1851000" />
+      <workItem from="1703192516346" duration="98000" />
+      <workItem from="1703278799512" duration="607000" />
+      <workItem from="1703453722681" duration="1974000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -202,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701890275195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="physic cool drop">
+      <option name="closed" value="true" />
+      <created>1702768452295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702768452295</updated>
+    </task>
+    <task id="LOCAL-00007" summary="attempt to use drag-drop correctly....">
+      <option name="closed" value="true" />
+      <created>1702829571345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702829571345</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +259,8 @@
     <MESSAGE value="attempt to drag and drop, not working at all (((((" />
     <MESSAGE value="drag-and-drop first sucess, TODO: debug&lt;Entity&gt; and some things" />
     <MESSAGE value="color change fix, physics doesn't work at all(idk why, i cant figure it)" />
-    <option name="LAST_COMMIT_MESSAGE" value="color change fix, physics doesn't work at all(idk why, i cant figure it)" />
+    <MESSAGE value="physic cool drop" />
+    <MESSAGE value="attempt to use drag-drop correctly...." />
+    <option name="LAST_COMMIT_MESSAGE" value="attempt to use drag-drop correctly...." />
   </component>
 </project>

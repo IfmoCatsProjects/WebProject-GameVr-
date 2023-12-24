@@ -17,6 +17,7 @@ import './components/color-randomizer'
 import './components/phase-shift'
 import 'super-hands'
 import 'aframe-physics-system'
+import './components/wall-component'
 
 
 import { h, render } from 'preact'
