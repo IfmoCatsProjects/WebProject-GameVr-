@@ -8,24 +8,38 @@ import {h, Component} from 'preact'
 import {Entity, Scene} from 'aframe-react'
 
 class Main extends Component {
+
     render() {
         return (
-            <Scene physics="" environment={{ preset: 'tron', shadow: true }}>
-                <Entity
-                    camera=""
-                    look-controls=""
-                    wasd-controls=""
-                    position="0 1 1"
-                    capture-mouse=""
-                    raycaster=""
-                    cursor="rayOrigin: mouse"
-                    body="type: static; shape: sphere; sphereRadius: 0.001"
-                    super-hands="colliderEvent: raycaster-intersection;
-                       colliderEventProperty: els;
-                       colliderEndEvent: raycaster-intersection-cleared;
-                       colliderEndEventProperty: clearedEls;"
 
-                ></Entity>
+            <Scene physics="debug: true" environment={{ preset: 'tron', shadow: true }}>
+
+                <Entity primitive="a-camera" look-controls
+
+                        >
+                    <Entity
+                        body="type: static; shape: sphere; sphereRadius: 0.001"
+                        super-hands="colliderEvent: raycaster-intersection;
+                             colliderEventProperty: els;
+                             colliderEndEvent:raycaster-intersection-clearedEls;
+                             colliderEndEventProperty: clearedEls;"
+                        primitive="a-cursor"
+                        cursor={{ fuse: false }}
+                        material={{ color: 'white', shader: 'flat', opacity: 0.75 }}
+                        geometry={{ radiusInner: 0.005, radiusOuter: 0.007 }}
+                        event-set__1={{
+                            _event: 'mouseenter',
+                            scale: { x: 1.4, y: 1.4, z: 1.4 }
+                        }}
+                        event-set__2={{
+                            _event: 'mouseleave',
+                            scale: { x: 1, y: 1, z: 1 }
+                        }}
+                        raycaster={{
+                            objects: '.clickable'
+                        }}
+                    />
+                </Entity>
 
                 <Entity
                     class="transformer"
@@ -45,54 +59,17 @@ class Main extends Component {
                         position="0 0 0.25"
                     ></Entity>
                 </Entity>
-                {['-5 2 0', '5 2 -10', '0 2 -15', '0 2 -5'].map((position, index) => (
-                    <Entity key={index} wall position={position} />
-                ))}
 
-                <Entity  class="cube clickable"
-                         geometry="primitive: box; width: 0.33; height: 0.33; depth: 0.33"
-                         hoverable
-                         grabbable
-                         stretchable
-                         draggable
-                         droppable
-                         event-set__hoveron="_event: hover-start; material.opacity: 0.7; transparent: true"
-                         event-set__hoveroff="_event: hover-end; material.opacity: 1; transparent: false"
-                         body="shape: none"
-                         shape="shape: box; halfExtents: 0.165 0.165 0.165"
-                         position="0 0.265 -1"
-                         material="color: red"
-                         super-hands={{
-                            grabbable: true,
-                            droppable: true,
-                            events: {
-                                hoverstart: function (e) {
-                                    e.detail.dropped.setAttribute('material', 'opacity: 0.7; transparent: true');
-                                },
-                                hoverend: function (e) {
-                                    e.detail.dropped.setAttribute('material', 'opacity: 1; transparent: false');
-                                },
-                            },
-                        }}
-                ></Entity>
-                <Entity
-                    class="cube"
-                    position="-0.002679314229573926 0.16549986912581263 -1.0022609326291367"
-                    material="color: red"
-                    hoverable=""
-                    grabbable="maxGrabbers: NaN"
-                    stretchable=""
-                    draggable=""
-                    droppable=""
-                    event-set__hoveron={{ _event: 'hover-start', material: { opacity: 0.7, transparent: true } }}
-                    event-set__hoveroff={{ _event: 'hover-end', material: { opacity: 1, transparent: false } }}
-                    velocity=""
-                    body="sphereRadius: NaN"
-                    shadow=""
-                    transparent="false"
-                    rotation="-0.000012777856045283518 0.7967365733314564 -0.00001618241056578558"
-                    ammo-body=""
-                ></Entity>
+                <Entity class="cube clickable" dynamic-body capture-mouse position="0 0.265 -1" custom-cube></Entity>
+
+                {[
+                    { position: '0 2 5', rotation: '0 0 0' },
+                    { position: '5 2 0', rotation: '0 90 0' },
+                    { position: '-5 2 0', rotation: '0 90 0' },
+                    { position: '0 2 -5', rotation: '0 0 0' },
+                ].map((wall, index) => (
+                    <Entity key={index} wall  position={wall.position} rotation={wall.rotation} />
+                ))}
 
                 {/* Ground collider, предотвращающий падение объектов */}
                 <Entity

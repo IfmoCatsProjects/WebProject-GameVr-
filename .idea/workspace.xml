@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="attempt to use drag-drop correctly....">
-      <change afterPath="$PROJECT_DIR$/app/components/wall-component.js" afterDir="false" />
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="wall init">
+      <change afterPath="$PROJECT_DIR$/app/components/TableComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/cube-custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/wall-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/wall-component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
     </list>
@@ -168,7 +170,9 @@
       <workItem from="1702978194261" duration="1851000" />
       <workItem from="1703192516346" duration="98000" />
       <workItem from="1703278799512" duration="607000" />
-      <workItem from="1703453722681" duration="1974000" />
+      <workItem from="1703453722681" duration="2784000" />
+      <workItem from="1703785458625" duration="1190000" />
+      <workItem from="1703812199123" duration="13487000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -226,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702829571345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="wall init">
+      <option name="closed" value="true" />
+      <created>1703460368581</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703460368581</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +273,7 @@
     <MESSAGE value="color change fix, physics doesn't work at all(idk why, i cant figure it)" />
     <MESSAGE value="physic cool drop" />
     <MESSAGE value="attempt to use drag-drop correctly...." />
-    <option name="LAST_COMMIT_MESSAGE" value="attempt to use drag-drop correctly...." />
+    <MESSAGE value="wall init" />
+    <option name="LAST_COMMIT_MESSAGE" value="wall init" />
   </component>
 </project>

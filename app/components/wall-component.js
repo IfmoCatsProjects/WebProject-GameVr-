@@ -11,5 +11,10 @@ AFRAME.registerComponent('wall', {
 
         // Добавляем меш стены в сцену
         this.el.setObject3D('mesh', wallMesh);
+
+        this.el.setAttribute('body', 'type: static; shape: none');
+        this.el.setAttribute('shape', 'shape: box; halfExtents: 5 2.5 0.05');
+        this.el.setAttribute('dynamic-body', '');
+
     },
 });

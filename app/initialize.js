@@ -18,6 +18,8 @@ import './components/phase-shift'
 import 'super-hands'
 import 'aframe-physics-system'
 import './components/wall-component'
+import './components/cube-custom'
+
 
 
 import { h, render } from 'preact'
