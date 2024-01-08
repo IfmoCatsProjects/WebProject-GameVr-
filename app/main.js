@@ -14,29 +14,13 @@ class Main extends Component {
 
             <Scene physics="debug: true" environment={{ preset: 'tron', shadow: true }}>
 
-                <Entity primitive="a-camera" look-controls restrict-position>
+                <Entity primitive="a-camera" look-controls="pointerLockEnabled: true" restrict-position controls-checker>
                     <Entity
                         body="type: static; shape: sphere; sphereRadius: 0.001"
-                        super-hands="colliderEvent: raycaster-intersection;
-                             colliderEventProperty: els;
-                             colliderEndEvent:raycaster-intersection-clearedEls;
-                             colliderEndEventProperty: clearedEls;"
                         primitive="a-cursor"
-                        cursor={{ fuse: false }}
-                        material={{ color: 'white', shader: 'flat', opacity: 0.75 }}
-                        geometry={{ radiusInner: 0.005, radiusOuter: 0.007 }}
-                        event-set__1={{
-                            _event: 'mouseenter',
-                            scale: { x: 1.4, y: 1.4, z: 1.4 }
-                        }}
-                        event-set__2={{
-                            _event: 'mouseleave',
-                            scale: { x: 1, y: 1, z: 1 }
-                        }}
-                        raycaster={{
-                            objects: '.clickable'
-                        }}
+                        capture-mouse
                     />
+                    <a-cursor id="cursor" mixin="point" material="color: #EAEAEC" line="end: 0 0 -5; color: white" raycaster="" velocity="" static-body="" throw-controls="" cursor="" geometry=""></a-cursor>
                 </Entity>
 
                 <Entity

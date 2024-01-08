@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="wall init">
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="player collision update">
+      <change afterPath="$PROJECT_DIR$/app/Template/camera-mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Template/controls.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/components/TableComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/cube-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/control-checker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/wall-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/wall-component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/capture-mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/capture-mouse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
     </list>
@@ -61,22 +63,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/WebstormProjects/aframe-super-hands-component-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/danil/WebstormProjects/WebProject-GameVr-",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\app" />
@@ -172,7 +174,8 @@
       <workItem from="1703278799512" duration="607000" />
       <workItem from="1703453722681" duration="2784000" />
       <workItem from="1703785458625" duration="1190000" />
-      <workItem from="1703812199123" duration="13487000" />
+      <workItem from="1703812199123" duration="13790000" />
+      <workItem from="1704566659099" duration="3163000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -238,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703460368581</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="wall update, cursor update">
+      <option name="closed" value="true" />
+      <created>1703853029416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703853029416</updated>
+    </task>
+    <task id="LOCAL-00010" summary="player collision update">
+      <option name="closed" value="true" />
+      <created>1704712812838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704712812838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +293,8 @@
     <MESSAGE value="physic cool drop" />
     <MESSAGE value="attempt to use drag-drop correctly...." />
     <MESSAGE value="wall init" />
-    <option name="LAST_COMMIT_MESSAGE" value="wall init" />
+    <MESSAGE value="wall update, cursor update" />
+    <MESSAGE value="player collision update" />
+    <option name="LAST_COMMIT_MESSAGE" value="player collision update" />
   </component>
 </project>
