@@ -14,9 +14,7 @@ class Main extends Component {
 
             <Scene physics="debug: true" environment={{ preset: 'tron', shadow: true }}>
 
-                <Entity primitive="a-camera" look-controls
-
-                        >
+                <Entity primitive="a-camera" look-controls restrict-position>
                     <Entity
                         body="type: static; shape: sphere; sphereRadius: 0.001"
                         super-hands="colliderEvent: raycaster-intersection;

@@ -19,7 +19,7 @@ import 'super-hands'
 import 'aframe-physics-system'
 import './components/wall-component'
 import './components/cube-custom'
-
+import './components/restrict-position'
 
 
 import { h, render } from 'preact'
