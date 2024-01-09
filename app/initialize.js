@@ -20,9 +20,9 @@ import 'aframe-physics-system'
 import './components/wall-component'
 import './components/cube-custom'
 import './components/restrict-position'
-import  './components/control-checker'
-import './Template/camera-mixin'
-import './Template/controls'
+//import  './components/control-checker'
+//import './Template/camera-mixin'
+//import './Template/controls'
 
 
 

@@ -8,7 +8,8 @@ AFRAME.registerTemplate(
                     id="point"
                     collision-filter="collisionForces: false"
                     static-body="shape: sphere; sphereRadius: 0.01"
-                    throw-controls
+                    capture-mouse
+                    raycaster="showLine: true; far: 5;"
                     super-hands="colliderEvent: raycaster-intersection;
                                 colliderEventProperty: els;
                                 colliderEndEvent: raycaster-intersection-cleared;

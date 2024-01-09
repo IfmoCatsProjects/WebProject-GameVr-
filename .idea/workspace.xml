@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="player collision update">
-      <change afterPath="$PROJECT_DIR$/app/Template/camera-mixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Template/controls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/TableComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/control-checker.js" afterDir="false" />
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="try to fix object drop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Template/camera-mixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/camera-mixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Template/controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/controls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/capture-mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/capture-mouse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/control-checker.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/control-checker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
     </list>
@@ -175,7 +174,9 @@
       <workItem from="1703453722681" duration="2784000" />
       <workItem from="1703785458625" duration="1190000" />
       <workItem from="1703812199123" duration="13790000" />
-      <workItem from="1704566659099" duration="3163000" />
+      <workItem from="1704566659099" duration="3290000" />
+      <workItem from="1704743138647" duration="2852000" />
+      <workItem from="1704764969702" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -257,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704712812838</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="try to fix object drop">
+      <option name="closed" value="true" />
+      <created>1704714917690</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704714917690</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +304,7 @@
     <MESSAGE value="wall init" />
     <MESSAGE value="wall update, cursor update" />
     <MESSAGE value="player collision update" />
-    <option name="LAST_COMMIT_MESSAGE" value="player collision update" />
+    <MESSAGE value="try to fix object drop" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to fix object drop" />
   </component>
 </project>
