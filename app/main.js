@@ -8,53 +8,11 @@ import {h, Component} from 'preact'
 import {Entity, Scene} from 'aframe-react'
 
 class Main extends Component {
-
     render() {
         return (
-
             <Scene physics="debug: true" environment={{ preset: 'tron', shadow: true }}>
-                <Entity primitive="a-camera"
-                        restrict-position
-                        controls-checker
-                        look-controls="pointerLockEnabled: true"
-                >
-                    <Entity
-                        controls-checker
-                        primitive="a-cursor"
-                        cursor={{ fuse: false }}
-                        material={{ color: 'white', shader: 'flat', opacity: 0.75 }}
-                        geometry={{ radiusInner: 0.005, radiusOuter: 0.007 }}
-                        super-hands="colliderEvent: raycaster-intersection;
-                                colliderEventProperty: els;
-                                colliderEndEvent: raycaster-intersection-cleared;
-                                colliderEndEventProperty: clearedEls;"
-                        raycaster="showLine: true; far: 5; objects: .dnd"
-                        collision-filter="collisionForces: false"
-                        static-body="shape: sphere; sphereRadius: 0.01"
-                        capture-mouse
-                    />
-                </Entity>
 
-                <Entity
-                    class="transformer"
-                    position="0 1.6 -1"
-                    color-randomizer=""
-                    droppable=""
-                    body="type: static; shape: none"
-                    shape="shape: box; halfExtents: 0.25 0.25 0.25"
-                    geometry="primitive: box; width: 0.5; height: 0.5; depth: 0.5"
-                    event-set__dragon="_event: dragover-start; material.color: orange"
-                    event-set__dragoff="_event: dragover-end; material.color: purple"
-                    material="color:purple"
-                    shadow
-                >
-                    <Entity
-                        text="value: Drag&drop to change color; width: 0.5; wrapCount: 12; align: center"
-                        position="0 0 0.25"
-                    ></Entity>
-                </Entity>
-
-                <Entity class="cube clickable" dynamic-body capture-mouse position="0 0.265 -1" custom-cube></Entity>
+                <Entity template="camera"></Entity>
 
                 {[
                     { position: '0 2 5', rotation: '0 0 0' },
@@ -64,7 +22,17 @@ class Main extends Component {
                 ].map((wall, index) => (
                     <Entity key={index} wall  position={wall.position} rotation={wall.rotation} />
                 ))}
-
+                <a-mixin id="cube" geometry="primitive: box; width: 0.33; height: 0.33; depth: 0.33"
+                         hoverable="" grabbable="maxGrabbers: NaN" stretchable="" draggable="" droppable=""
+                             event-set__hoveron="_event: hover-start; material.opacity: 0.7; transparent: true"
+                             event-set__hoveroff="_event: hover-end; material.opacity: 1; transparent: false"
+                             body="shape: none" shape="shape: box; halfExtents: 0.165 0.165 0.165" shadow></a-mixin>
+                <a-entity className="cube" mixin="cube" position="0 0.265 -1" material="color: red"></a-entity>
+                <a-entity className="cube" mixin="cube" position="0 0.265 -0.5" material="color: red"></a-entity>
+                <a-entity className="cube" mixin="cube" position="-1 0.265 -1" material="color: blue"></a-entity>
+                <a-entity className="cube" mixin="cube" position="-1 0.265 -0.5" material="color: blue"></a-entity>
+                <a-entity className="cube" mixin="cube" position="1 0.265 -1" material="color: green"></a-entity>
+                <a-entity className="cube" mixin="cube" position="1 0.265 -0.5" material="color: green"></a-entity>
                 {/* Ground collider, предотвращающий падение объектов */}
                 <Entity
                     primitive="a-box"
@@ -75,6 +43,7 @@ class Main extends Component {
                     depth={100}
                     visible={false}
                 ></Entity>
+
             </Scene>
         );
     }
