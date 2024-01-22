@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="try to fix object drop">
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="again attempt to fix camera">
+      <change afterPath="$PROJECT_DIR$/app/assets/models/CraftingFreePack_OBJ.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/start-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Template/camera-mixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/camera-mixin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Template/controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/controls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/capture-mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/capture-mouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/control-checker.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/control-checker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/camera.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cursor-camera" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -68,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/danil/WebstormProjects/WebProject-GameVr-",
+    "last_opened_file_path": "C:/Users/danil/WebstormProjects/WebProject-GameVr-/app/assets/models",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +91,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\app\assets\models" />
       <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -109,6 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.publish" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.publish" />
       </list>
@@ -177,6 +191,8 @@
       <workItem from="1704566659099" duration="3290000" />
       <workItem from="1704743138647" duration="2852000" />
       <workItem from="1704764969702" duration="1194000" />
+      <workItem from="1705422723938" duration="2430000" />
+      <workItem from="1705855583127" duration="7590000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -266,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704714917690</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="again attempt to fix camera">
+      <option name="closed" value="true" />
+      <created>1704920838618</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704920838618</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +329,7 @@
     <MESSAGE value="wall update, cursor update" />
     <MESSAGE value="player collision update" />
     <MESSAGE value="try to fix object drop" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to fix object drop" />
+    <MESSAGE value="again attempt to fix camera" />
+    <option name="LAST_COMMIT_MESSAGE" value="again attempt to fix camera" />
   </component>
 </project>

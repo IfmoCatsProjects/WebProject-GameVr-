@@ -7,6 +7,7 @@
 
 import 'aframe'
 import 'aframe-animation-component'
+import 'aframe-ui-widgets'
 import 'aframe-event-set-component'
 import 'aframe-particle-system-component'
 import './components/aframe-custom'
@@ -20,11 +21,6 @@ import 'aframe-physics-system'
 import './components/wall-component'
 //import './components/cube-custom'
 import './components/restrict-position'
-import './camera'
-//import  './components/control-checker'
-//import './Template/camera-mixin'
-//import './Template/controls'
-
 
 
 import { h, render } from 'preact'

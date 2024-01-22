@@ -10,29 +10,53 @@ import {Entity, Scene} from 'aframe-react'
 class Main extends Component {
     render() {
         return (
-            <Scene physics="debug: true" environment={{ preset: 'tron', shadow: true }}>
+            <Scene physics="debug: true" environment={{preset: 'egypt', shadow: true}}>
 
-                <Entity template="camera"></Entity>
+                <Entity camera look-controls wasd-controls position="0 1 1"
+                        restrict-position
+                        body="type: static; shape: sphere; sphereRadius: 0.001"
+                        raycaster cursor="rayOrigin:mouse"
+                        super-hands="colliderEvent: raycaster-intersection;
+                                colliderEventProperty: els;
+                                colliderEndEvent: raycaster-intersection-cleared;
+                                colliderEndEventProperty: clearedEls;"
+                        >
+                    <Entity
+                        primitive="a-cursor"
+                        cursor={{fuse: false}}
+                        material={{color: 'white', shader: 'flat', opacity: 0.75}}
+                        geometry={{radiusInner: 0.005, radiusOuter: 0.007}}
+                        event-set__1={{
+                            _event: 'mouseenter',
+                            scale: {x: 1.4, y: 1.4, z: 1.4}
+                        }}
+                        event-set__2={{
+                            _event: 'mouseleave',
+                            scale: {x: 1, y: 1, z: 1}
+                        }}
+                        raycaster={{
+                            objects: '.clickable'
+                        }}
+                    />
+                    </Entity>
+                <a-assets>
+                    <a-asset-item id="fire" src="app/assets/models/extinguisher.gltf"></a-asset-item>
+                </a-assets>
+                <Entity
+                    gltf-model="#extinguisher.gltf" // Reference to the model asset
+                    position="0 1 -5"
+                >
+            </Entity>
 
-                {[
-                    { position: '0 2 5', rotation: '0 0 0' },
-                    { position: '5 2 0', rotation: '0 90 0' },
-                    { position: '-5 2 0', rotation: '0 90 0' },
-                    { position: '0 2 -5', rotation: '0 0 0' },
+
+                    {[
+                    {position: '0 2 5', rotation: '0 0 0'},
+                    {position: '5 2 0', rotation: '0 90 0'},
+                    {position: '-5 2 0', rotation: '0 90 0'},
+                    {position: '0 2 -5', rotation: '0 0 0'},
                 ].map((wall, index) => (
-                    <Entity key={index} wall  position={wall.position} rotation={wall.rotation} />
+                    <Entity key={index} wall position={wall.position} rotation={wall.rotation}/>
                 ))}
-                <a-mixin id="cube" geometry="primitive: box; width: 0.33; height: 0.33; depth: 0.33"
-                         hoverable="" grabbable="maxGrabbers: NaN" stretchable="" draggable="" droppable=""
-                             event-set__hoveron="_event: hover-start; material.opacity: 0.7; transparent: true"
-                             event-set__hoveroff="_event: hover-end; material.opacity: 1; transparent: false"
-                             body="shape: none" shape="shape: box; halfExtents: 0.165 0.165 0.165" shadow></a-mixin>
-                <a-entity className="cube" mixin="cube" position="0 0.265 -1" material="color: red"></a-entity>
-                <a-entity className="cube" mixin="cube" position="0 0.265 -0.5" material="color: red"></a-entity>
-                <a-entity className="cube" mixin="cube" position="-1 0.265 -1" material="color: blue"></a-entity>
-                <a-entity className="cube" mixin="cube" position="-1 0.265 -0.5" material="color: blue"></a-entity>
-                <a-entity className="cube" mixin="cube" position="1 0.265 -1" material="color: green"></a-entity>
-                <a-entity className="cube" mixin="cube" position="1 0.265 -0.5" material="color: green"></a-entity>
                 {/* Ground collider, предотвращающий падение объектов */}
                 <Entity
                     primitive="a-box"
@@ -43,9 +67,9 @@ class Main extends Component {
                     depth={100}
                     visible={false}
                 ></Entity>
-
             </Scene>
         );
     }
 }
+
 export default Main;
