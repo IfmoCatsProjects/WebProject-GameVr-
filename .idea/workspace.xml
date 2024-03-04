@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="again attempt to fix camera">
-      <change afterPath="$PROJECT_DIR$/app/assets/models/CraftingFreePack_OBJ.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.gltf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/models/extinguisher.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/start-screen.js" afterDir="false" />
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="comment +">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/danil/WebstormProjects/WebProject-GameVr-/app/assets/models",
+    "last_opened_file_path": "C:/Users/danil/WebstormProjects/aframe-super-hands-component-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -192,7 +183,19 @@
       <workItem from="1704743138647" duration="2852000" />
       <workItem from="1704764969702" duration="1194000" />
       <workItem from="1705422723938" duration="2430000" />
-      <workItem from="1705855583127" duration="7590000" />
+      <workItem from="1705855583127" duration="7803000" />
+      <workItem from="1705884799134" duration="348000" />
+      <workItem from="1705885162067" duration="356000" />
+      <workItem from="1707332842715" duration="593000" />
+      <workItem from="1708332374844" duration="32000" />
+      <workItem from="1708347832469" duration="6000" />
+      <workItem from="1708357980242" duration="402000" />
+      <workItem from="1708361981144" duration="1367000" />
+      <workItem from="1708535901465" duration="10451000" />
+      <workItem from="1708979582093" duration="11000" />
+      <workItem from="1709041925518" duration="5000" />
+      <workItem from="1709044874548" duration="13000" />
+      <workItem from="1709384891811" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -290,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704920838618</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="custom models attempt to use(they don't show, idk why)/">
+      <option name="closed" value="true" />
+      <created>1705884728739</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705884728739</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +341,7 @@
     <MESSAGE value="player collision update" />
     <MESSAGE value="try to fix object drop" />
     <MESSAGE value="again attempt to fix camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="again attempt to fix camera" />
+    <MESSAGE value="custom models attempt to use(they don't show, idk why)/" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom models attempt to use(they don't show, idk why)/" />
   </component>
 </project>
