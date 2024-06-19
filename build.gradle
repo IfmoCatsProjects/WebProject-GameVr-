@@ -1,0 +1,44 @@
+plugins {
+    id 'com.github.node-gradle.node' version '3.0.1'
+}
+
+node {
+    version = '16.0.0'
+    npmVersion = '7.10.0'
+    download = true
+}
+
+
+task compile(type: NpmTask) {
+    dependsOn 'stopServer'
+    description = "Compile the project without starting server"
+    args = ['run', 'compile']
+}
+
+task stopServer(type: Exec) {
+    commandLine 'cmd', '/c', 'FOR /F "tokens=5" %a IN (\'netstat -aon ^| findstr :3333 ^| findstr LISTENING\') DO Taskkill.exe /F /PID %a'
+    ignoreExitValue true // Ignore errors if no node process is found
+}
+
+task clean(type: Delete) {
+    dependsOn 'stopServer'
+    def dirName = "public"
+    file( dirName ).list().each{
+        f -> delete "${dirName}/${f}"
+    }}
+
+task buildProject(type: NpmTask) {
+    description = "Build the project"
+    args = ['start']
+}
+
+task test(type: NpmTask) {
+    //dependsOn 'buildProject'
+    description = "Run tests"
+    args = ['run', 'test:e2e']
+}
+
+task history(type: Exec) {
+    description = "Handle compilation failure by rolling back to previous Git revision"
+    commandLine 'bash', '-c', './script.sh'
+}

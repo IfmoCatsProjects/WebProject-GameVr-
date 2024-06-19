@@ -43,7 +43,9 @@ class Main extends Component {
                 </Entity>
 
                 {/*контроллеры для вр-сета*/}
-                {/*hoverable grabbable="startButtons: triggerdown; endButtons: trackpadup"*/}
+                {/*hoverable grabbable="startButtons: triggerdown; endButtons: trackpadup"
+                <a-entity vive-controls="hand: left"></a-entity>
+<a-entity vive-controls="hand: right"></a-entity>*/}
                 <Entity hand-controls="hand: left" id="controller"
                         super-hands
                         static-body="shape: sphere; sphereRadius: 0.02;"
@@ -62,7 +64,9 @@ class Main extends Component {
                         event-set__hoveron="_event: hover-start; material.opacity: 0.7; transparent: true"
                         event-set__hoveroff="_event: hover-end; material.opacity: 1; transparent: false"
                         event-set__dragon="_event: dragover-start; material.wireframe: true"
-                        event-set__dragoff="_event: dragover-end; material.wireframe: false"></Entity>
+                        event-set__dragoff="_event: dragover-end; material.wireframe: false"
+                        gltf-model={{src: 'apple.gltf'}}
+                ></Entity>
                 <Entity class="cube clickable" dynamic-body capture-mouse position="0 0.965 -1" custom-cube
                         event-set__dragdrop="_event: drag-drop; geometry.primitive: sphere; geometry.radius: 0.25"
                         event-set__hoveron="_event: hover-start; material.opacity: 0.7; transparent: true"
@@ -93,6 +97,11 @@ class Main extends Component {
                     depth={100}
                     visible={false}
                 ></Entity>
+
+                <Entity id="apple"></Entity>
+
+
+
             </Scene>
         );
     }

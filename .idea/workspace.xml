@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="comment +">
+    <list default="true" id="5f665d6c-dde6-4643-8abf-243349720042" name="Changes" comment="step to &quot;recipe&quot; + VR controllers">
+      <change afterPath="$PROJECT_DIR$/app/assets/models/apple.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/models/apple.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/custom-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/basicTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/eighth.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fifth.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/first.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fourth.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/second.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/sixth.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/third.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ОПИ№3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebProject-GameVr-.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/initialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/initialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brunch-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/brunch-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +40,41 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="A-Frame-Preact" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="A-Frame-Preact" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="A-Frame-Preact" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,41 +128,130 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/danil/WebstormProjects/aframe-super-hands-component-master",
+    "last_opened_file_path": "C:/Users/danil/WebstormProjects/WebProject-GameVr-",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/danil/WebstormProjects/WebProject-GameVr-/node_modules/jest",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-" />
       <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\app\assets\models" />
       <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\public" />
       <recent name="C:\Users\danil\WebstormProjects\WebProject-GameVr-\aframe-react-boilerplate-master\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.publish">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.WebProject-GameVr- [buildProject]">
+    <configuration name="WebProject-GameVr- [buildProject]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildProject" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebProject-GameVr- [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebProject-GameVr- [stopServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="stopServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebProject-GameVr- [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="test:e2e" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="publish" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/aframe-react-boilerplate-master/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="publish" />
+        <script value="test:e2e" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -112,10 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.publish" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.publish" />
+        <item itemvalue="Gradle.WebProject-GameVr- [buildProject]" />
+        <item itemvalue="Gradle.WebProject-GameVr- [stopServer]" />
+        <item itemvalue="Gradle.WebProject-GameVr- [clean]" />
+        <item itemvalue="npm.test:e2e" />
+        <item itemvalue="Gradle.WebProject-GameVr- [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +343,22 @@
       <workItem from="1708979582093" duration="11000" />
       <workItem from="1709041925518" duration="5000" />
       <workItem from="1709044874548" duration="13000" />
-      <workItem from="1709384891811" duration="1722000" />
+      <workItem from="1709384891811" duration="5990000" />
+      <workItem from="1709810743268" duration="624000" />
+      <workItem from="1709911210818" duration="1214000" />
+      <workItem from="1710194690702" duration="590000" />
+      <workItem from="1710208714545" duration="1444000" />
+      <workItem from="1711902446297" duration="50000" />
+      <workItem from="1713702425353" duration="4000" />
+      <workItem from="1713709212802" duration="4000" />
+      <workItem from="1716143471487" duration="1000" />
+      <workItem from="1716150855933" duration="1000" />
+      <workItem from="1717357379235" duration="1448000" />
+      <workItem from="1717408977637" duration="3209000" />
+      <workItem from="1717454297367" duration="4241000" />
+      <workItem from="1717678277158" duration="2138000" />
+      <workItem from="1718645256070" duration="22322000" />
+      <workItem from="1718804836301" duration="9626000" />
     </task>
     <task id="LOCAL-00001" summary="First vr-experiment">
       <option name="closed" value="true" />
@@ -301,7 +464,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705884728739</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="step to &quot;recipe&quot; + VR controllers">
+      <option name="closed" value="true" />
+      <created>1709586803313</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709586803313</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +513,7 @@
     <MESSAGE value="try to fix object drop" />
     <MESSAGE value="again attempt to fix camera" />
     <MESSAGE value="custom models attempt to use(they don't show, idk why)/" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom models attempt to use(they don't show, idk why)/" />
+    <MESSAGE value="step to &quot;recipe&quot; + VR controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="step to &quot;recipe&quot; + VR controllers" />
   </component>
 </project>
